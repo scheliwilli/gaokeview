@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="img/favicon.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAOKEview</title>
@@ -28,7 +29,7 @@
           </a>
           <a href="tel:+79232234326" class="phone-number">+7 913 986 21 71</a>
         </div>
-        <a href="#" class="btn-callback">КОНТАКТЫ</a>
+        <a href="#contacts" class="btn-callback">КОНТАКТЫ</a>
       </div>
     </div>
     <nav class="header-bottom">
@@ -201,7 +202,7 @@
 
       <!-- Карточка 1 -->
       <div class="doc-card">
-        <img src="img/GK-XY3301G 1.png" alt="GK-XY3301G">
+        <img src="img/GK-XY3301G 1.png" alt="GK-XY3301G" class="product-thumb">
 
         <h3>Gaokeview GK-XY3301G</h3>
 
@@ -220,7 +221,7 @@
 
       <!-- Карточка 2 -->
       <div class="doc-card">
-        <img src="img/GK-XY3301G 16.png" alt="GK-GK-S6">
+        <img src="img/GK-XY3301G 16.png" alt="GK-GK-S6" class="product-thumb">
 
         <h3>Gaokeview GK-GK-S6</h3>
 
@@ -238,7 +239,7 @@
 
       <!-- Карточка 3 -->
       <div class="doc-card">
-        <img src="img/GK-XY3301G 17.png" alt="GK-XY3301G">
+        <img src="img/GK-XY3301G 17.png" alt="GK-XY3301G" class="product-thumb">
 
         <h3>Gaokeview GK-XY3301G</h3>
 
@@ -261,19 +262,19 @@
 
     <!-- Digital frames -->
     <section class="section" id="digital-frames">
-      <div class="container">
+      <div class="frametamer">
         <div class="digital-carousel">
-          <button class="carousel-nav prev">◀</button>
+          <button class="carousel-nav prev"><img src="img/Line 2.svg" width="100" height="50" alt="strelka left"></button>
           <div class="carousel-stage">
             
             <!-- Frame 1: 21.5" -->
             <div class="frame-slide active">
               <div class="frame-content">
                 <div class="frame-image">
-                  <img src="img/Group 48.png" alt="21.5 Digital Frame">
+                  <img src="img/Group 48.png" alt="21.5 Digital Frame" class="product-thumb">
                 </div>
                 <div class="frame-specs">
-                  <h2 class="frame-title">Цифровые фоторамки</h2>
+                  <h2 class="frame-title"> Цифровые фоторамки</h2>
                   <ul class="specs-list">
                     <li>Дисплей 21,5" с разрешением Full HD (1920×1080)</li>
                     <li>Светодиодная подсветка, яркое и чёткое изображение</li>
@@ -290,9 +291,9 @@
                     <li>Корпус из натурального дерева</li>
                   </ul>
                   <div class="frame-dimensions">
-                    <span>136mm</span>
+                    <span>556</span>
                     <span>×</span>
-                    <span>596mm</span>
+                    <span>136 mm</span>
                   </div>
                 </div>
               </div>
@@ -302,7 +303,7 @@
             <div class="frame-slide">
               <div class="frame-content">
                 <div class="frame-image">
-                  <img src="img/Group 477.png" alt="24 Digital Frame">
+                  <img src="img/Group 47.png" alt="24 Digital Frame" class="product-thumb">
                 </div>
                 <div class="frame-specs">
                   <h2 class="frame-title">Цифровые фоторамки</h2>
@@ -322,9 +323,9 @@
                     <li>Корпус из натурального дерева</li>
                   </ul>
                   <div class="frame-dimensions">
-                    <span>136mm</span>
+                    <span>490</span>
                     <span>×</span>
-                    <span>596mm</span>
+                    <span>136 mm</span>
                   </div>
                 </div>
               </div>
@@ -334,7 +335,7 @@
             <div class="frame-slide">
               <div class="frame-content">
                 <div class="frame-image">
-                  <img src="img/Group 49.png" alt="32 Digital Frame">
+                  <img src="img/Group 49 (1).png" alt="32 Digital Frame" class="product-thumb">
                 </div>
                 <div class="frame-specs">
                   <h2 class="frame-title">Цифровые фоторамки</h2>
@@ -354,22 +355,22 @@
                     <li>Корпус из натурального дерева</li>
                   </ul>
                   <div class="frame-dimensions">
-                    <span>136mm</span>
+                    <span>830</span>
                     <span>×</span>
-                    <span>596mm</span>
+                    <span>170 mm</span>
                   </div>
                 </div>
               </div>
             </div>
 
           </div>
-          <button class="carousel-nav next">▶</button>
+          <button class="carousel-nav next"><img src="img/Line 1.svg" width="100" height="50" alt="strelka right"></button>
         </div>
       </div>
     </section>
 
     <!-- Contacts / Footer -->
-    <section class="contacts">
+    <section class="contacts" id="contacts">
   <div class="container contacts__inner">
 
     <!-- Левая колонка -->
@@ -405,10 +406,16 @@
 
       <p class="contacts__text">
         Следите за нами в социальных сетях:
-        <a href="https://t.me/IvertaSiberia" class="tg-icon">
+      </p>
+      <a href="https://t.me/IvertaSiberia" class="icons_contacts">
             <img src="img/Vector.svg" alt="Telegram">
           </a>
-      </p>
+      <a href="https://vk.com/ivertasiberia" class="icons_contacts">
+            <img src="img/Exclude.svg" alt="vk">
+          </a>
+      <a href="https://www.youtube.com/@IVERTaSiberia" class="icons_contacts">
+            <img src="img/Frame (1).svg" alt="yt">
+          </a>
 
     </div>
 
@@ -434,13 +441,14 @@
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__logo">
-      <img src="img/Логотип GAOKEview 1.svg" width="350" height="54" alt="GAOKEview">
+      <a href="/">
+          <img src="img/Логотип GAOKEview 1.svg" width="350" height="54" alt="GAOKEview">
+        </a>
     </div>
 
     <nav class="footer__nav">
       <a href="#">ГЛАВНАЯ</a>
-      <a href="#">КОНТАКТЫ</a>
-      <a href="#">О КОМПАНИИ ИВЕРТА</a>
+      <a href="#contacts">КОНТАКТЫ</a>
     </nav>
   </div>
 </footer>
@@ -452,8 +460,9 @@
       <button class="modal-close">✕</button>
       <div class="modal-body">
         <h3>Выберите магазин</h3>
+        <img src="img/Логотип GAOKEview 1.svg" width="225" height="40" alt="GAOKEview">
         <div class="modal-links">
-          <a class="btn btn-ozon" href="https://www.ozon.ru/brand/gaokeview-100479712" target="_blank">Купить на Ozon</a>
+          <a class="btn btn-ozon" href="https://www.ozon.ru/brand/gaokeview-100479712" target="_blank">Купить на OZON</a>
           <a class="btn btn-wb" href="https://www.wildberries.ru/brands/312303083-gaokeview" target="_blank">Купить на WB</a>
         </div>
       </div>
