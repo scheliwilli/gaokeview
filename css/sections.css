@@ -396,7 +396,6 @@ html, body{height:100%;scroll-behavior:smooth;scroll-snap-type:y proximity;scrol
   border-radius: 10px;
   margin-top: auto;
 }
-/* ===== Контакты ===== */
 
 .contacts {
   background: #fafafa;
@@ -444,7 +443,6 @@ html, body{height:100%;scroll-behavior:smooth;scroll-snap-type:y proximity;scrol
   gap: 100px;
 }
 
-/* ===== Форма ===== */
 
 .contacts__right {
   margin-top: 100px;
@@ -495,7 +493,6 @@ html, body{height:100%;scroll-behavior:smooth;scroll-snap-type:y proximity;scrol
 }
 
 
-/* ===== Footer ===== */
 
 .footer {
   background: #252525;
